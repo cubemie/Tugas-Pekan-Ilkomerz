@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="media.css" /> 
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">CUBE's</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">CUBE's</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span> </span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#AboutMe" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Purple and Pink Gradient Quote Instagram Post.png" alt="MUTIA SANIYA RAHMA" />
+        </div>
+        <div class="section__text">
+        <p class="section__text__">Hello,I'm</p>
+        <h1 class="title">Mutia Saniya Rahma</h1>
+        <p class="section__text__p2">G6401231002</p>
+        
+    <!-- contact info -->
+    <div id="social-container">
+        <img
+        src="./assets/github.png"
+        alt="My Github profile"
+        class="icon"
+        onclick="location.href='https://github.com/'"/>
+        <img
+        src="./assets/New Black Instagram Logo 2020 transparent PNG - StickPNG.jpeg"
+        alt="My Instagram profile"
+        class="icon"
+        onclick="location.href='https://Instagram.com/cubemie/'"/>
+    </div>
+    </section>
+</section>
+<!-- edit dl -->
+<section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="about-title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img
+        src="./assets/Purple and Pink Gradient Quote Instagram Post (1).png"
+        alt="Profile picture"
+        class="about-pic"
+      />
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+    
+          <h3>More Information About Me</h3>
+          <p>19 Years old<br />Ilkomerz 60</p>
+        </div>
+      <div class="text-container">
+        <p>
+            Hello, my name is Mutia Saniya Rahma, 
+            but you can call me Saniya or San San. My NIM is G6401231002, and lately, I've been getting into the habit of reading books.
+            <br><br>
+            "Keep living and be happy,this is a command!."
+            <br> - Saniya 2024  -
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+        <div>
+            <h4>Stay Connected with Me</h4>
+            <p>Email: <a href="email">111204mutia@apps.ipb.ac.id</a></p>
+            <p>Phone: <a href="tel:+6289522907848">+62 895 2290 7848</a></p>
+        </div>
+        
+        <div class="footer">
+            <h4>Follow Me</h4>
+            <p>
+                <a href="https://www.instagram.com/cubemie" target="_blank">Instagram | @cubemie </a>
+                <nav>
+                    <div class="nav-links-container">
+                      <ul class="nav-links">
+                          <li><a href="#Home">Home</a></li>
+                          <li><a href="#AboutMe">About Me</a></li>
+                          <li><a href="#Contact">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+        </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
